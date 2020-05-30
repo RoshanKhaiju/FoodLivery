@@ -213,11 +213,42 @@ body {
         background-repeat: no-repeat;
         position: relative;
 
+        
+
         .nav {
             display: flex;
             justify-content: flex-end;
             margin-top: 1.8rem;
             margin-right: 5rem;
+
+            .fas{
+                color: rgba($color: #000000, $alpha: 0.5);
+                font-size: 1rem;
+                position: absolute;
+                top: 5vh;
+                left: 29vw;
+                display: none;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+
+            .search-box{
+                    width: 22vw;
+                    height: 4vh;
+                    outline: none;
+                    border: none;
+                    border-radius: 1rem;
+                    position: absolute;
+                    top: 4vh;
+                    left: 5vw;
+                    background-color: rgba($color: #ffffff, $alpha: 0.6);
+                    padding-left: 1.2rem;
+                    padding-right: 2rem;
+                    color: rgba($color: #000000, $alpha: 0.5);
+                    display: none;
+            }
+
             li {
                 list-style-type: none;
                 font-size: 1rem;

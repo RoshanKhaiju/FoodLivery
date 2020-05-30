@@ -260,6 +260,35 @@ body {
   margin-right: 5rem;
 }
 
+.container .yellow .nav .fas {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  position: absolute;
+  top: 5vh;
+  left: 29vw;
+  display: none;
+}
+
+.container .yellow .nav .fas:hover {
+  cursor: pointer;
+}
+
+.container .yellow .nav .search-box {
+  width: 22vw;
+  height: 4vh;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  position: absolute;
+  top: 4vh;
+  left: 5vw;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-left: 1.2rem;
+  padding-right: 2rem;
+  color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
 .container .yellow .nav li {
   list-style-type: none;
   font-size: 1rem;
